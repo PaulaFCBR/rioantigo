@@ -1,14 +1,64 @@
+/*
 p{
     font-family: 'Courier New', Courier, monospace;
+
     color: cornflowerblue;
+
     font-size: 16px;
 }
 
 #precabralina{
+
     color: blueviolet;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     text-align: left;
+
 }
+
 .curiosidades-pequena{
+
 font-size: 12pix;
+
 }
+*/
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin:15px;
+}
+
+#cabecalho{
+    text-align: center;
+}
+
+#colonial{
+    text-align: right;
+}
+
+#republicano{
+    text-align: right;
+}
+
+h2{
+    color:rgb(74, 67, 86);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border: 20px solid #ffffff;
+    width:400px;
+  }
+
+footer{
+    font-size: 12px
+
+}  
+
