@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.cabecalho {
+    background-color: aquamarine;
+    padding: 10px 0;
+    width: 940px;
+}
+.hmenu{
+    position: absolute;
+    top: 55px;
+    right: left;
+}
+.hmenu ul li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.hmenu ul li a{
+    color:rgb(127, 148, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.hmenu ul li a:hover{
+    color:rgb(5, 5, 46);
+    border-bottom: 1px solid rgb(224,134,30)
+}
+.caixa{
+  width: 940px; 
+  position: 10px 0;
+  margin: auto 
+}
