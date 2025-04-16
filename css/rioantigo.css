@@ -54,7 +54,8 @@ h2{
 
 img {
     border: 20px solid #ffffff;
-    width:400px;
+    /*width:400px;*/
+    max-width: 50%;
   }
 
 footer{
