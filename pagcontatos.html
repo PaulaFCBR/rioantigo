@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converse Conosco</title>
+</head>
+<body>
+    <main>
+        <div>
+           <h2>Converse Conosco</h2> 
+        </div>
+        <div>
+            <form name="frmContato" id="idContato" action="#" method="POST">
+                <div>
+                    <label for="idnome"> Nome: </label>
+                </div>
+                <input id="idnome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required >
+                <div>
+                    <label for="idemail"> Email: </label>
+                </div>
+                <input id="idemail" type="text" name="email" maxlength="10" placeholder="Digite seu email" required >
+                <div>
+                    <label for="idtelefone"> Telefone: </label>
+                </div>
+                <input id="idtelefone" type="tel" name="telefone" placeholder="Digite seu telefone" required >
+                <div>
+                    <label> Genero: </label>
+                </div>
+                <input id="idgenero" type="radio" name="genero" value="F" ><label for ="idgeneroF">Feminino</label>
+                <input id="idgenero" type="radio" name="genero" value="F" ><label for ="idgeneroM">Masculino</label>
+                <input id="idgenero" type="radio" name="genero" value="F" ><label for ="idgeneroO">Outros</label>
+                <div>
+                    <label id="assunto" id="idassunto"></label>
+                    <select name="assunto" id="idassunto">
+                        <option value="0" selected>Selecione</option>
+                        <option value="E">Elogio</option>
+                        <option value="C">Critica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="ismensagem">Mensagem</label>
+                </div>
+                <textarea rows="10" cols="200" id="idmensagem" name="mensagem" placeholder="Preencha a mensagem"></textarea>
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
