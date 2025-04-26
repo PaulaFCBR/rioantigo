@@ -1,0 +1,32 @@
+.cabecalho {
+    background-color: aquamarine;
+    padding: 10px 0;
+    width: 940px;
+}
+.sobre{
+    padding-bottom: 15px;
+    text-align: center;
+}
+.youtube-sobrenos{
+    padding: 10px;
+}
+.video-sobrenos{
+    width: 100%;
+}
+
+.mapa-sobrenos{
+    padding:10px
+}
+.mapa-sobrenos iframe{
+    border: 1px solid rgb(24,84,161) ;
+    border-radius:4px;
+}
+.audio-sobrenos{
+    width: 80%;
+}
+
+.audio-sobrenos audio{
+    width: 100%;
+    border: 1px solid rgb(24,84,161); 
+    border-radius: 18px;
+}

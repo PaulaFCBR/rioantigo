@@ -1,0 +1,78 @@
+.divform {
+    border: 1px solid blue;
+    width: 680px;
+    background-color: rgb(245,245,245);
+    padding: 10px;
+}
+
+.divform fieldset{
+    border: none;
+}
+
+.label{
+    font-size: 20px;
+    padding: 8px 0 6px 0;
+}
+
+.divform input[type=text],
+.divform input[type="email"],
+.divforminput [type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin:6px 0;
+    box-sizing: border-box;
+    border:1px solid #470864;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.radio {
+   font-family: 'Courier New', Courier, monospace; 
+   font-size: 16px;
+   margin-left: 10px;
+}
+
+.label-radio{
+   display:inline;
+   padding-left: 6px;
+   color: #470864;
+   font-size: 18px;
+}
+.divform select{
+    /*width: 100px;
+    padding: 10px 10px;
+    border: 1px solid  #470864;*/
+    border-radius: 4px;
+    font-size: 16px;
+    color:  #470864;
+}
+.minhatextarea{
+    width: 800;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#470864
+}
+
+.buttons input[type=reset],
+.buttons input[type=submit] {
+    background-color: #470864;
+    color:#fff;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block ;
+    font-size: 16px;
+    margin:4px 2px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.buttons input[type=reset]:hover,
+.buttons input[type=submit]:hover{
+    background-color: #fff;
+    color:#470864;
+}
